@@ -4,4 +4,11 @@ pages_build_output_dir = "./dist"
 
 [[kv_namespaces]]
 binding = "notes"
-id = "b1329cb8560e49d392bed877c9ac48a2"
+id = "f14c8ab9bea14740afe27ac9855026a5"
+
+[vars]
+PUBLIC_IS_SETTING_NO_EXPIRATION_ALLOWED = "true"
+PUBLIC_IS_AUTHENTICATION_REQUIRED = "true"
+AUTHENTICATION_JWT_SECRET = "680aec072a72405334106c1c63ecb9ae9a42a3ea8a31052e8a565b49e37a2f95"
+AUTHENTICATION_USERS = "dishao@msn.com:$2a$10$z31KjKXY2zoG/xoM78jmz.w.LwO73/WuGPjTgbVh4t1zW5yQhKp8e"
+
